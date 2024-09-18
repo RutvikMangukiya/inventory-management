@@ -10,14 +10,14 @@ export interface Product {
 
 export interface SalesSummary {
     salesSummaryId: string;
-    totalvalue: number;
+    totalValue: number;
     changePercentage?: number;
     date: string;
 }
 
 export interface PurchaseSummary {
     purchaseSummaryId: string;
-    totalvalue: number;
+    totalPurchased: number;
     changePercentage?: number;
     date: string;
 }
@@ -55,4 +55,4 @@ export const api = createApi({
     }),
 });
 
-export const { useGetDashboardMetricsQuery } = api;
+export const { useGetDashboardMetricsQuery } = api; 

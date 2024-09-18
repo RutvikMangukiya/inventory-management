@@ -32,7 +32,7 @@ const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, func
                 date: "desc",
             },
         });
-        const expenseSummary = yield prisma.salesSummary.findMany({
+        const expenseSummary = yield prisma.expenseSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",

@@ -26,7 +26,7 @@ export const getDashboardMetrics = async (
                 date: "desc",
             },
         });
-        const expenseSummary = await prisma.salesSummary.findMany({
+        const expenseSummary = await prisma.expenseSummary.findMany({
             take: 5,
             orderBy: {
                 date: "desc",
@@ -37,12 +37,14 @@ export const getDashboardMetrics = async (
             orderBy: {
                 date: "desc",
             },
-        });
+        }
+    );
         const expenseByCategorySummary = expenseByCategorySummaryRaw.map(
             (item) => ({
                 ...item,
                 amount: item.amount.toString()
-            }));
+            })
+        );
             
             res.json({
                 popularProducts,

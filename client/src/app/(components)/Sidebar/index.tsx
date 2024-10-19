@@ -73,7 +73,7 @@ const Sidebar = () => {
             }`}
             >
              <Image
-                 src="https://inventory-management-rutvik.s3.amazonaws.com/logo.jpg"
+                 src="https://inventory-management-rutvik.s3.amazonaws.com/logo.png"
                  alt="edstock-logo"
                  width={27}
                  height={27}

@@ -3,7 +3,12 @@ import {
     useGetDashboardMetricsQuery,
   } from "@/state/api";
   import { TrendingUp } from "lucide-react";
-  import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
+  import { 
+    Cell, 
+    Pie, 
+    PieChart, 
+    ResponsiveContainer 
+  } from "recharts";
   
   type ExpenseSums = {
     [category: string]: number;

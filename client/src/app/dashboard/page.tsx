@@ -58,7 +58,7 @@ const Dashboard = () => {
      dateRange="22 - 29 October 2023"
      details={[
       {
-         title: "sales", 
+         title: "Sales", 
          amount: "1000.00",
          changePercentage: 20,
          IconComponent: TrendingUp,

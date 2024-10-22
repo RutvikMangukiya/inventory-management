@@ -1,5 +1,10 @@
-## Full Stack Inventory Management Dashboard 👟📊
+# Full Stack Inventory Management Dashboard 👟📊
 
+## Project Screenshots 📸
+- **Dashboard Page**
+![dashboard](https://github.com/RutvikMangukiya/inventory-management/blob/main/assets/images/dashboard-page1.png)
+- **Products Page**
+![dashboard](https://github.com/RutvikMangukiya/inventory-management/blob/main/assets/images/products-page.png)
 
 ## About the Project 📚
 This  full-stack inventory management dashboard is built using Next.js for the frontend, styled with Tailwind CSS and featuring Material UI Data Grid for complex data handling. State management is streamlined with Redux Toolkit, supplemented by Redux Toolkit Query for data fetching.
@@ -50,11 +55,11 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-- Create a .env file in both the client and server directories
+- Create a `.env` file in both the client and server directories.
 
 - **For the frontend (client):**
   
-  Configure the API URL where the backend server is    running.
+  Configure the API URL where the backend server is running.
 
 - **Example `.env` for the client:**
 
@@ -66,7 +71,7 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
   
   Configure your PostgreSQL database credentials.
 
-- **Example `.env` for the client:**
+- **Example `.env` for the server:**
 
 ```bash
 DATABASE_URL=postgresql://username:password@localhost:5432/inventorymanagement
@@ -113,4 +118,5 @@ npm run dev
 
 [AWS commands](https://github.com/RutvikMangukiya/inventory-management/blob/main/aws-ec2-instructions.md)
 
-## AWS Deployment Instructions And Readme (In Progress)⏳
+## AWS Deployment Details & README 📄 ☁️
+[AWS deployment](https://github.com/RutvikMangukiya/inventory-management/blob/main/aws-deployment.md)
